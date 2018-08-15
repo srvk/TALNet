@@ -2,6 +2,12 @@
 
 more readme goodness on the way
 
+## Installation: Model Download
+First download the model to the folder where this repository has been cloned:
+```
+wget http://speechkitchen.org/model.pt
+```
+
 ## Quickstart
 To run:
 ```

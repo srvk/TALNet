@@ -1,6 +1,8 @@
 # 537cls - classify 537 noisemes
 
-more readme goodness on the way
+Predict from 537 classes of noiseme, as specified in `class_labels_indices.csv`  
+Output is in RTTM format, tab separated. (Labels are quoted and may contain spaces)  
+Also outputs the frame probability matrix  
 
 ## Dependencies
 Requires Pytorch compiled for CPU, not GPU, such as installed as part of http://github.com/srvk/DiViMe

@@ -25,7 +25,7 @@ Numerous audio formats are supported. Output in <audiofile>.rttm
   python predict.py example.mp3
   
   cat example.rttm
-  vagrant@vagrant-ubuntu-trusty-64:~/527cls$ cat example.rttm 
+  vagrant@vagrant-ubuntu-trusty-64:~/537cls$ cat example.rttm 
 SPEAKER example 1       6.4     0.3     <NA>    <NA>    "Speech"        <NA>    <NA>
 SPEAKER example 1       6.9     1.3     <NA>    <NA>    "Speech"        <NA>    <NA>
 SPEAKER example 1       8.5     1.2     <NA>    <NA>    "Speech"        <NA>    <NA>

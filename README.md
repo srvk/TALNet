@@ -1,8 +1,6 @@
-# 537cls - classify 537 noisemes
+# TALNet Sound Event Classifier
 
-Sound event classifier
-
-Predict from 537 classes of noiseme, as specified in [class_labels_indices.csv](https://github.com/srvk/537cls/blob/master/class_labels_indices.csv)  
+Classify sound events: predict from 537 classes of noiseme, as specified in [class_labels_indices.csv](https://github.com/srvk/537cls/blob/master/class_labels_indices.csv)  
 Output is in RTTM format, tab separated. (Labels are quoted and may contain spaces)  
 Also outputs the frame probability matrix  
 

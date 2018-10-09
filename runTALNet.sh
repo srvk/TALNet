@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# run537classify.sh
+# runTALNet.sh
 
 # simple bash script to call python & run classifier in this folder
 # takes one argument: path to an audio file

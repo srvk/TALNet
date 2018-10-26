@@ -7,12 +7,6 @@ Also outputs the frame probability matrix
 ## Dependencies
 Requires Pytorch compiled for CPU, not GPU, such as installed as part of http://github.com/srvk/DiViMe
 
-## Installation: Model Download
-First download the model to the folder where this repository has been cloned:
-```
-wget http://speechkitchen.org/model.pt
-```
-
 ## Quickstart
 To run:
 ```

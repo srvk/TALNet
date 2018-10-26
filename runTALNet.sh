@@ -11,6 +11,11 @@ SCRIPT=$(readlink -f $0)
 # Absolute path this script is in. /home/user/bin
 BASEDIR=`dirname $SCRIPT`
 
+if [ $# -ne 1 ]; then
+  echo "Usage: $0 <audiofile>"
+  exit 1;
+fi
+
 DATA=$(readlink -f $1)
 OUT=`dirname $DATA`
 
@@ -18,7 +23,7 @@ cd $BASEDIR
 
 # get the model if missing
 if [ ! -f model.pt ]; then
-  wget http://speechkitchen.org/model.pt
+  wget http://islpc21.is.cs.cmu.edu/model.pt
 fi
 
 python predict.py $1

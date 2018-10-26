@@ -30,7 +30,7 @@ def save_rttm(filename, frame_pred):
     FRAME_LEN = 0.1
     with open(path_prefix + '.rttm', 'w') as f:
         for cls, start, end in zip(cls_ids, starts, ends):
-            f.write('SPEAKER\t%s\t1\t%.1f\t%.1f\t<NA>\t<NA>\t"%s"\t<NA>\t<NA>\n' % \
+            f.write('SPEAKER\t%s\t1\t%.1f\t%.1f\t<NA>\t<NA>\t%s\t<NA>\t<NA>\n' % \
                 (file_prefix, start * FRAME_LEN, (end - start) * FRAME_LEN, class_names[cls]))
 
 # MAIN PROGRAM STARTS HERE

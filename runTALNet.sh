@@ -37,5 +37,6 @@ output=$dirname/$basename.rttm
 #echo "basename is " $basename
 #exit
 
-mv $output /tmp
-sort -V -k3 /tmp/$basename.rttm > $OUT/$basename.rttm
+# output is not sorted in time order; sort it
+mv -f $output /tmp
+sort -V -k3 /tmp/$basename.rttm > $OUT/${basename}_talnet.rttm
